@@ -1,23 +1,27 @@
-import ProjectCards from "@/components/ui/ProjectCards";
-import ProjectGrid from "@/components/utils/ProjectGrid";
 
-import { projects } from "@/config.js"
+import HeroSection from "@/components/landing/HeroSection";
+
+
+import Navbar from "@/components/ui/Navbar";
+import ProjectSection from "@/components/landing/ProjectSection";
+import AboutSection from "@/components/landing/AboutSection";
+
 
 export default function Home() {
 
 
 
     return (
-        <main className="flex min-h-screen flex-col p-24">
-            <h1>Hi. I am eli.</h1>
-            
-                <ProjectGrid>
-                    { projects.map((project) =>
-                        <div className={project.className} key={project.title}>
-                            <ProjectCards title={project.title} label={project.label} image={project.image} />
-                        </div>
-                    )}
-                </ProjectGrid>
-        </main>
+        <div>
+            <div>
+                <Navbar />
+            </div>
+            <main className="container max-w-full flex min-h-screen flex-col p-24">
+
+                <HeroSection />
+                <AboutSection />
+                <ProjectSection />
+            </main>
+        </div>
     )
 }

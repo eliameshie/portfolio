@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+
+
 html,
 body,
 :root {
@@ -11,5 +13,12 @@ body,
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #E6E3D3;
+    background-color: #e7e5dd;
+    overflow-x: hidden;
+}
+
+hr {
+    color: black!important;
+    background-color: black!important;
+    border-color: black!important;
 }
