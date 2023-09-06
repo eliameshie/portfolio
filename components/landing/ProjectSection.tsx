@@ -7,7 +7,7 @@ import ProjectCards from "@/components/ui/ProjectCards"
 
 const ProjectSection = () => {
     return (
-        <div>
+        <div id="portfolio">
             <ProjectGrid>
                 { projects.map((project) =>
                     <div className={clsx(project.className)} key={project.title}>

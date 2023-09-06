@@ -5,6 +5,7 @@ import HeroSection from "@/components/landing/HeroSection";
 import Navbar from "@/components/ui/Navbar";
 import ProjectSection from "@/components/landing/ProjectSection";
 import AboutSection from "@/components/landing/AboutSection";
+import ContactSection from "@/components/landing/ContactSection";
 
 
 export default function Home() {
@@ -21,6 +22,8 @@ export default function Home() {
                 <HeroSection />
                 <AboutSection />
                 <ProjectSection />
+                <ContactSection />
+                
             </main>
         </div>
     )

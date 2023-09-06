@@ -13,9 +13,10 @@ export const projects = [
 ]
 
 export const about = {
-    title: "I LOVE TO TALK ABOUT MYSELF.",
+    title: "WHERE IT ALL STARTED.",
     number: "0 1",
     section: "About",
+    center: false,
     description:`
     I am Elikem Ameshie, commonly referred to as Eli. I have always had a passion for technology and started typing on a keyboard at a young age. During that time, I created Java Plugins and Scripts for my Minecraft server.\n\n
     My journey took a significant step about four years ago when I established a freelancing agency focused on developing websites for local businesses using HTML, CSS, JavaScript, and PHP. Witnessing the joy these websites brought to people and realizing that I could positively impact someone's life with something I both enjoyed and created, solidified my decision to pursue a career as a software engineer. 
@@ -26,3 +27,13 @@ export const about = {
     ctaText: "Learn More"
 }
 
+export const contact = {
+    title: "LETS HAVE A CONVERSATION.",
+    number: "",
+    section: "",
+    center: true,
+    description:"",
+    hr: true,
+    cta: false,
+    ctaText: "Learn More"
+}

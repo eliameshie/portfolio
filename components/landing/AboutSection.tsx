@@ -6,16 +6,17 @@ import { about } from "@/config";
 
 const AboutSection = () => {
     return (
-        <div className="my-40 h-[80vh]">
+        <div id="about" className="my-40 h-[80vh]">
             <SectionLayout
-                    title={about.title}
-                    section={about.section}
-                    number={about.number}
-                    description={about.description}
-                    hr={about.hr}
-                    cta={about.cta}
-                    ctaText={about.ctaText}
-                />
+                title={about.title}
+                section={about.section}
+                center={about.center}
+                number={about.number}
+                description={about.description}
+                hr={about.hr}
+                cta={about.cta}
+                ctaText={about.ctaText}
+            />
             <div className="flex">
                 <div className="flex justify-start ms-auto w-6/12">
                     <div>

@@ -18,7 +18,7 @@ interface Props {
 
 const ProjectCards = ( props: Props ) => {
     return (
-        <div className="flex bg-black rounded-lg w-full h-full">
+        <div className="flex bg-black rounded-lg w-full h-full hover:bg-[#04151F] transition-all cursor-pointer">
             <div className="relative flex w-full h-full">
 
                     <div className="flex h-[20vw] space-between overflow-hidden">

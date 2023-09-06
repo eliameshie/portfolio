@@ -15,6 +15,7 @@ body,
     box-sizing: border-box;
     background-color: #e7e5dd;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 hr {

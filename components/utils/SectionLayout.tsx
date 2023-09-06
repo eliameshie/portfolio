@@ -2,7 +2,8 @@
 
 interface Props {
     title: string,
-    section: string,
+    section?: string,
+    center: boolean,
     number: string,
     description: string,
     hr: boolean,
@@ -15,7 +16,7 @@ const SectionLayout = (props: Props) => {
     return (
         <div>
             <div>
-                <h1 className="text-8xl font-semibold lg:w-9/12 md:w-6/12 sm:w-full mb-10">{props.title}</h1>
+                <h1 className={props.center ? "text-8xl mx-auto text-center font-semibold lg:w-9/12 md:w-6/12 sm:w-full mb-10" : "text-8xl font-semibold lg:w-9/12 md:w-6/12 sm:w-full mb-10"}>{props.title}</h1>
             </div>
 
             { props.hr ? 
@@ -26,7 +27,7 @@ const SectionLayout = (props: Props) => {
 
             <div className="flex flex-row space-between items-baseline mt-8">
                 <div className="flex-1">
-                    <h6 className="mb-4 font-medium uppercase">{props.number} \\\ {props.section}</h6>
+                    <h6 className="text-xl mb-4 font-semibold uppercase">{props.section ? `${props.number} | ${props.section}` : ""}</h6>
                 </div>
                 <div className="flex-1">
                     <p className="font-medium mb-8">{props.description}</p>

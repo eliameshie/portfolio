@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Elikem Ameshie Portfolio',
   description: 'A flower blooms wherever the heart lies.',
+  icons: '/favicon.ico'
 }
 
 export default function RootLayout( { children } : { children: React.ReactNode }) {
