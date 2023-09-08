@@ -28,12 +28,12 @@ export const about = {
 }
 
 export const contact = {
-    title: "LETS HAVE A CONVERSATION.",
+    title: "LETS GET IN CONTACT.",
     number: "",
     section: "",
     center: true,
     description:"",
     hr: true,
     cta: false,
-    ctaText: "Learn More"
+    ctaText: ""
 }

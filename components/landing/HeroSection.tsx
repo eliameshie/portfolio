@@ -1,7 +1,6 @@
-import Pills from "@/components/ui/Pills";
+import Link from "next/link";
+
 import { me } from "@/config";
-
-
 
 
 const HeroSection = () => {
@@ -11,7 +10,9 @@ const HeroSection = () => {
             <p>{me.blurb}</p>
             <div className="mt-8">
                 <button className="bg-[#04151F] text-white mx-4 px-8 py-3 my-2 rounded-md">Learn More</button>
-                <button className="mx-4 border border-gray-400 px-8 py-3 my-2 rounded-md hover:border-[#04151F] transition-all">My Resume</button>
+                <Link href="/resume/Elikem_Ameshie_Resume.pdf" target="_blank">
+                    <button className="mx-4 border border-gray-400 px-8 py-3 my-2 rounded-md hover:border-[#04151F] transition-all">My Resume</button>
+                </Link>
             </div>
             
         </div>
