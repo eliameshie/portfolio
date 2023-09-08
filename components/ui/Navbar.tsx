@@ -17,7 +17,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <div className="flex-1 items-center text-center">
-                    <Image className="align-middle items-center text-center mx-auto" src="/assets/logo.png" alt="Eli Ameshie Portfolio Logo"  width={96} height={96} />
+                    <Image className="sticky inset-y-0 inset-x-0 align-middle items-center text-center mx-auto max-w-full" src="/assets/logo.png" alt="Eli Ameshie Portfolio Logo"  width={96} height={96} />
                 </div>
                 <div className="flex flex-1 items-center justify-center text-center flex-row">  
                     <Link href="/resume/Elikem_Ameshie_Resume.pdf" target="_blank">

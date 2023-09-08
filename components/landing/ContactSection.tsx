@@ -23,7 +23,7 @@ const ContactSection = () => {
                 <div className="relative w-full text-center">
                     <div className="inline justify-center">
                         <div className="inline-block mx-auto text-center max-w-full">
-                            <h4 className="w-full mx-auto text-center">Feel free to contact me on one of the followign platforms or click the button to email me!</h4>
+                            <h4 className="w-full mx-auto text-center">Feel free to contact me on one of the following platforms or click the button to email me!</h4>
                             <div className="flex flex-row mt-6 justify-center">
                                 <Link href="https://www.linkedin.com/in/eliameshie/"  >
                                     <p className="pr-4">

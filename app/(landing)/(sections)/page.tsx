@@ -17,7 +17,7 @@ export default function Home() {
             <div>
                 <Navbar />
             </div>
-            <main className="container max-w-full flex min-h-screen flex-col p-24">
+            <main className="container max-w-full flex min-h-screen flex-col p-16 md:p-24">
 
                 <HeroSection />
                 <AboutSection />

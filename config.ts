@@ -7,9 +7,9 @@ export const me = {
 }
 
 export const projects = [
-    { title: "Muly", label: "Front End", image: "/", className: "col-span-1 row-span-2" },
-    { title: "Vapid Notes", label: "Full Stack", image: "/", className: "col-span-2 row-span-1" },
-    { title: "Nynth Labs", label: "Business Operations", image: "/", className: "col-span-2 row-span-1" },
+    { title: "Muly", href: "https://muly.us", label: "Front End", image: "/", className: "col-span-3 row-span-2 md:col-span-1 md:row-span-2" },
+    { title: "Nynth Labs", href: "https://nynthlabs.com", label: "Business Operations", image: "/", className: "col-span-3 row-span-2  md:col-span-2 md:row-span-1" },
+    { title: "Vapid Notes", href: "/", label: "Full Stack", image: "/", className: "col-span-3 row-span-2 md:col-span-2 md:row-span-1" },
 ]
 
 export const about = {
