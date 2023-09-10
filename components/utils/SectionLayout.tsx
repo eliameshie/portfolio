@@ -15,6 +15,7 @@ interface Props {
 const SectionLayout = (props: Props) => {
     return (
         <div>
+            
             <div>
                 <h1 className={props.center ? "text-5xl mx-auto text-center break-words font-semibold lg:w-9/12 md:w-5/12 w-full mb-10" : "text-6xl font-semibold lg:w-9/12 md:w-6/12 sm:w-full mb-10"}>{props.title}</h1>
             </div>
@@ -30,7 +31,7 @@ const SectionLayout = (props: Props) => {
                     <h6 className="text-xl mb-4 font-semibold uppercase">{props.section ? `${props.number} | ${props.section}` : ""}</h6>
                 </div>
                 <div className="flex-1">
-                    <p className="font-medium mb-8">{props.description}</p>
+                    <p className="font-light mb-8">{props.description}</p>
                     { props.cta ? 
                     <button className="font-medium">{props.ctaText}</button> 
                     : <div></div>
