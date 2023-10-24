@@ -6,7 +6,7 @@ import { about } from "@/config";
 
 const AboutSection = () => {
     return (
-        <div id="about" className="my-40 ">
+        <div id="about" className="my-40">
             <SectionLayout
                 title={about.title}
                 section={about.section}

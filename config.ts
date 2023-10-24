@@ -9,7 +9,7 @@ export const me = {
 export const projects = [
     { title: "Muly", href: "https://muly.us", label: "Full Stack", description: "Designed and developed a platform where users can recommend songs and share their music profiles easily.", className: "col-span-3 md:col-span-1 " },
     { title: "Nynth Labs", href: "https://nynthlabs.com", label: "Business Operations", description: "Oversees the design, development and business of a local digital marketing agency that specializes in website development.", className: "col-span-3 md:col-span-2" },
-    { title: "Vapid Notes", href: "/", label: "Full Stack", description: "Design and development of an e-learning platform that replciates studying for end-of-year AP College Board Test.", className: "col-span-3  md:col-span-2" },
+    { title: "Vapid Notes", href: "https://vapidnotes.netlify.app/", label: "Full Stack", description: "Design and development of an e-learning platform that replciates studying for end-of-year AP College Board Test.", className: "col-span-3  md:col-span-2" },
 ]
 
 export const about = {
